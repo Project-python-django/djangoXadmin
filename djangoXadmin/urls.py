@@ -26,4 +26,5 @@ xversion.register_models()
 
 urlpatterns = [
     path(r'xadmin/', xadmin.site.urls),
+    path(r'ueditor/', include('DjangoUeditor.urls')),
 ]
